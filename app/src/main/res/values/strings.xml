@@ -1,0 +1,244 @@
+<resources>
+    <string name="app_name">Coffee</string>
+    <string name="coffee_type">Coffee Type</string>
+    <string name="title_activity_coffee_and_the_environment">Coffee And The Environment</string>
+    <string name="coffee_production_and_labor">Coffee Production And Labor</string>
+    <string name="coffee_overview1">
+            A: Coffee is the world\'s second most valuable traded commodity, behind only petroleum.\n\n
+            There are approximately 25 million farmers and coffee workers in over 50 countries involved in producing coffee around the world.\n\n
+            Coffee was traditionally developed as a colonial cash crop, planted by serfs or wage laborers in tropical climates on large plantations of landowners for sale in colonial countries.\n\n
+            Coffee producers, like most agricultural workers around the world, are kept in a cycle of poverty and debt by the current global economy designed to exploit cheap labor and keep consumer prices low.\n\n
+            An estimated 11 million hectares of the world\'s farmland are dedicated to coffee cultivation.\n\n
+            The largest producer and exporter is Brazil, followed by Colombia, Vietnam, Indonesia, and Mexico.\n\n
+            Around the globe, the annual consumption of coffee has expanded to 12 billion pounds.\n\n
+            For more information about the history of Latin America and coffee, see Coffee and Power by Jeffrey Paige (in bibliography)
+
+           </string>
+
+    <string name="coffee_overview2">
+        A: Coffee is the US\'s largest food import and second most valuable commodity only after oil.\n\n
+        According to the International Coffee Organization, the US imported 2.72 billion pounds of coffee from September 2001 to September 2002.\n\n
+        The US primarily purchases coffee from Brazil, Colombia, Mexico, Guatemala, and Vietnam. The U.S.\n\n
+        also buys coffee from Indonesia, Costa Rica, Peru, El Salvador, Ecuador, Venezuela, Honduras, Uganda, Thailand, Nicaragua, India, and Papua New Guinea.\n\n
+        In the U.S. alone, over 130 million consumers are coffee drinkers.\n\n
+        In recent years, new cafes have been opening at an explosive rate, making specialty coffee mainstream and increasing profit margins for specialty coffee roasters and retailers.\n\n
+        The Specialty Coffee Association of America estimated that there are 10,000 coffee cafes and 2,500 specialty stores selling coffee.\n\n
+        Chains represent %30$d of all coffee retail stores, but the majority remain in the hands of independent owners or small family businesses..\n\n
+
+    </string>
+
+    <string name="coffee_overview3">
+        A: Coffee prices are set according to the New York \"C"\ Contract market.\n\n
+        The price of coffee fluctuates wildly in this speculative economy, generally hovering around fifty cents per pound.\n\n
+        Most coffee is traded by speculators in New York, who trade approximately 8-10 times the amount of actual coffee produced each year.\n\n
+        The single most influential factor in world coffee prices is the weather in Brazil.\n\n
+        Droughts and frosts portend shortages of coffee and the price increases.\n\n
+        Specialty coffee is often imported at a negotiated price over the C market, which is considered a \'quality premium\'.\n\n
+        Most of those premiums never reach the coffee farmer, but rather stay in the hands of the exporter.\n\n
+        This creates a disincentive for farmers to increase their quality, as they do not receive the direct benefits of increased investment in producing better coffee.\n\n
+    </string>
+
+    <string name="coffee_overview4">
+        A: Coffee is an extremely powerful commodity, reigning as the world\'s most heavily traded product, behind petroleum, and the largest food import of the United States.\n\n
+        The global commodity chain for coffee involves a string of producers, middlemen, exporters, importers, roasters, and retailers before reaching the consumer.\n\n
+        Coffee is a vital source of export for many of the developing countries that grow it.\n\n
+        Some 20 million families in 50 countries now work directly in the cultivation of coffee an estimated 11 million hectares of the world\'s farmland are dedicated to coffee cultivation.\n\n
+        Arabica and Robusta are the two principle species of coffee harvested today.\n\n
+        Approximately %70$d of the world\'s production is the Arabica bean, used for higher-grade and specialty coffees, and %80$d of this bean comes from Latin America.\n\n
+        Robusta is grown primarily in Africa and Asia.\n\n
+      </string>
+        <string name="coffee_overview20">
+        Most small farmers sell directly to middlemen exporters who are commonly referred to as coyotes.\n\n
+        These coyotes are known to take advantage of small farmers, paying them below market price for their harvests and keeping a high percentage for themselves.\n\n
+        In contrast, large coffee estate owners usually process and export their own harvests that are sold at the prices set by the New York Coffee Exchange.\n\n
+        However, extremely low wages ($2-3/day) and poor working conditions for farmworkers characterize coffee plantation jobs.\n\n
+        Importers purchase green coffee from established exporters and large plantation owners in producing countries.\n\n
+        Only those importers in the specialty coffee segment buy directly from the small farmer cooperatives.\n\n
+        Importers provide a crucial service to roasters who do not have the capital resources to obtain quality green coffee from around the world. \n\n
+        Importers bring in large container loads and hold inventory, selling gradually through numerous small orders.\n\n
+        Since many roasters rely on this service, importers wield a great deal of influence over the types of green coffee that are sold in the US.\n\n
+      </string>
+    <string name="coffee_overview21">
+    There are approximately 1200 roasters in the US today.\n\n
+        Large roasters usually have one blend of recipes and sell to large retailers - the Big Three (Kraft, which owns Maxwell House and Sanka, owned by Philip Morris; Procter and Gamble, which owns Folgers and Millstone; and Nestle) maintain over %60$d of total green bean volume.
+        Microroasters, or those who roast up to 500 bags of coffee a year, offer the product we know as specialty coffee.\n\n
+        Most roasters buy coffee from importers in small, frequent purchases.\n\n
+        Roasters have the highest profit margin in the value chain, thus making them an important link in the commodity chain.\n\n
+         Retailers usually purchase packaged coffee from roasters, although an increasing number of retailers are also roasting their own beans for sale.\n\n
+        The Specialty Coffee Association of America estimated that there are 10,000 cafes and 2,500 specialty stores selling coffee.\n\n
+        Chains represent approximately %30$d of all coffee retail stores.\n\n
+        However, supermarkets and traditional retail chains are still the primary channel for both specialty coffee and non-specialty coffee, and they hold about %60$d of marketshare of total coffee sales.
+        Around the globe, the annual consumption of coffee is 12 billion pounds and in the U.S.\n\n
+        alone, over 130 million consumers are coffee drinkers.\n\n
+
+    </string>
+<string name="coffee_overview5">
+    A: Coffee farming originally developed in Africa as an understory crop beneath\n
+    diverse shade trees that provided habitat for wildlife such as birds, butterflies, insects, and animals.\n
+    Traditional farmers usually use sustainable agricultural techniques including composting coffee pulp,
+    rotating crops, and not applying expensive chemicals and fertilizers.\n
+    In addition, they usually cultivate food alongside cash crops,
+    and intercrop other plants such as banana and nut trees which provide food security as well as additional sources of income.\n
+    In the 1970s and 80s, as part of the general shift to \'technified agriculture\' during the so-called Green Revolution,
+    the US Agency for International Development and other groups gave $80 million dollars for plantations in Central America to replace traditional shade grown farming techniques with \'sun cultivation\'
+    techniques in order to increase yields. This resulted in the destruction of vast forests and biodiversity of over 1.1 million hectares.\n
+  </string>
+   <string name="coffee_overview22">
+    \'Sun cultivated\' coffee involves the cutting down of trees, monocropping, and the input of chemical fertilizers and pesticides.\n
+    This type of industrial coffee farming leads to severe environmental problems, such as pesticide pollution, deforestation and the extinction of songbirds through habitat destruction.\n
+    The Smithsonian Institute has identified industrial coffee production as one of the major threats to songbirds in the hemisphere due to deforestation - the birds no longer have a habitat in which to live.
+    Soil and water sources continue to be severely degraded by many coffee farms, as coffee pulp is often dumped into streams.\n
+    In addition to the harmful effects on the environment caused by the use of chemical pesticides and herbicides in coffee cultivation, workers are also at risk of drinking contaminated water and being poisoned by pesticides.
+    For these reasons, many bird, tree, and biodiversity conservationists have developed standards for promoting \"shade-grown"\ or \"bird-friendly"\
+    certified coffee  that is, coffee grown under a canopy of diverse trees that provide habitat to birds.\n
+    The Smithsonian Migratory Bird Center, as well as Rainforest Alliance and the Seattle Audubon Society,
+    all promote various labels of coffee that promote tree and bird conserving farming practices.\n
+    In addition, many consumers are committed to purchasing organic coffee in order to promote sustainable farming techniques in poor countries.\n
+    For more information, see the Proceedings of the First Sustainable Coffee Congress by the Smithsonian Institute, which is a valuable resource on all issues of sustainability.
+ </string>
+
+    <string name="coffee_overview7">
+        A: About %85$d of Fair Trade Certified coffee is shade grown and either passive or certified organic.\n
+        Over half of the certified organic coffee is produced by Fair Trade cooperatives,
+        but unless the coffee is Fair Trade Certified, there is no guarantee that the farmer received the benefit.\n
+        Certified organic coffee in the Fair Trade market receive a $.15 premium per pound.\n
+        Typically, small farmers have never had the money to finance cutting down of the trees or purchase large amounts of chemical fertilizers and pesticides.\n
+        Small farmers have traditionally passed on sustainable farming techniques to their children.\n
+        We believe that small farmers are the best stewards of the land, with the highest interest in living in and passing on land with healthy soil free from harmful pesticides to their children.\n
+        Paying farmers a fair wage with incentives for ecological practices is the best way to encourage sustainable farming.\n
+        Fair Trade helps guarantee that the benefits of organic farming techniques reach the farmer as well as the consumer and the environment.\n
+        We support the shade grown/bird-friendly as well as organic labeling movements as an important tool for consumers to make responsible choices about environmental conservation,
+        and support the double- or triple-labeling of coffee. Most consumers who believe in supporting living wages for farmers also support sustainable farming practices that promote environmental conservation.
+    </string>
+
+    <string name="coffee_overview8">
+        A: Organic, Shade Grown, and Bird-Friendly certification labels have contributed important and valuable efforts to promoting sustainable agriculture techniques that benefit farmers and the environment.
+        However, they do not carry the encompassing attributes of the Fair Trade Certification process.
+        Organic coffee is certified according to strict legal criteria.
+        There are a number of different certifying agencies (QAI, OCIA) that all certify according to the same California Organic Foods Act an in accordance with the standards of the International Federation of Organic Agricultural Movements (IFOAM).
+        Shade coffee (bird-friendly) is currently certified by several groups (Rainforest Alliance, Seattle Audubon Society, Smithsonian Institute) but they work with slightly different criteria and do not have comprehensive monitoring procedures.
+        Of these, the Smithsonian Institute has the strongest and most scientifically-based criteria and the best monitoring capability.
+        Fair Trade Certification works with a ten year old comprehensive system of monitoring according to international standards.
+        Most (%85$d) Fair Trade Certified coffee is organic and shade grown, and most Shade and Organic coffee comes from farms that are organized as part of the Fair Trade network.
+        Unfortunately, most organic or shade grown coffee is not Fair Trade
+        you still have to look for the Fair Trade Certified label to know if the farmer got a fair price.
+        Notably, unlike organic certification, all Fair Trade coffee monitoring and certification costs are paid by the roasters in the consuming countries,
+        not the farmers.In sum, we believe Fair Trade, Shade/Bird Friendly and Organic labeling initiatives to be symbiotic,
+        because what is good for the workers is good for trees, birds, and our shared environment. Many consumers are looking for coffee that is multiply certified; labor and ecological standards overlap and are mutually beneficial
+        .</string>
+<string name="coffee_overview9">A: The Fair Trade movement began in the late 1950s as alternative trade organizations
+    (ATOs) emerged in Europe and the US to promote grassroots development through direct, equitable trade.
+    These ATOs bought directly from Third World producers, eliminating the middlemen, and paid the producers a fair price while providing assistance in developing trading experience and market contacts. Such experiences helped producers raise their incomes while reducing their dependency on commercial middlemen.
+    These first ATOs were primarily \"Third World shops"\ which dealt mainly in handicrafts.
+    Today, there are 3,000 of these shops in Europe organized in the Network of European World Shops,
+    and about 100 in the US, organized in the Fair Trade Federation.
+</string>
+<string name="coffee_overview10">
+    A: The first Fair Trade certification initiative, called Max Havelaar, was proposed in Holland in 1988.\n
+    It marked an important departure from the ATO model. The Fair Trade seal was offered to mainstream coffee roasters who were willing to trade even a fraction of their total volume on Fair Trade terms.
+    By bringing in larger coffee roasters and pushing Fair Trade into mainstream supermarkets, this seal exposed many more consumers to the benefits of Fair Trade coffee and greatly increased the number of farmers who benefit from Fair Trade.
+    After the Fair Trade seal demonstrated itself as a viable marketing concept, several groups from other countries in Europe adopted the initiative, many under the name of Fair Trade USA. However, for most of their history, the Fair Trade labeling organizations remained a collection of independent, autonomous, nationally based initiatives that shared criteria and worked with the same farmers, but pursued common goals with different strategies. There are currently Fair Trade Certification seals in 17 different importing countries.</string>
+<string name="coffee_overview11">A: In 1997, Fair Trade labelers formed an international
+    umbrella group called Fair Trade Labeling Organizations (FLO) International.
+    The 17-member organization follows a set criteria which defines Fair Trade for each product
+    certified under the Fair Trade system, including coffee, tea, cocoa, sugar, honey,
+    bananas and orange juice. For each commodity, there is a shared International Fair Trade
+    Registry of farmers who have undergone a formal application process and have been approved to
+    sell to the Fair Trade market. Monitoring and certification systems are maintained by FLO,
+    which has field monitors in each producer region or country who annually visit all of the producer coops.
+    Each member of FLO contributes to international monitoring costs with its annual dues.
+</string>
+<string name="coffee_overview12">A: In 1986, Equal Exchange was established to import Nicaraguan
+    coffee as an expression of solidarity with the people and revolution of Nicaragua,
+    after the Reagan administration imposed an unfair trade embargo.
+    Equal Exchange became the only ATO in the US to focus exclusively on Fair Trade coffee,
+    trading according to the international standards before there was a monitoring agency in the US.
+
+    In the fourteen years since its inception, Equal Exchange has built a small but important niche for Fair Trade coffee,
+    earning the respect and recognition of the specialty coffee industry and helping many farmers to keep
+    their land during the low ebbs in the world coffee market. Other companies such as Peace Coffee in Minneapolis,
+    Zapatista Coffee in Denver, Cafe Mam in Oregon, Cafe Campesino in Georgia, and Dean\'s Beans in Massachusetts have
+    also been active promoting fair prices for farmers over the last five years, as well as promoting education about
+    the coffee industry and the need for Fair Trade.
+</string>
+<string name="coffee_overview13">A: Fair Trade USA is the only FLO-affiliated, non-profit Fair Trade certification
+    organization in the United States. Fair Trade USA was founded in 1996, but due to lack of funding was stagnant
+    until 1998, when it incorporated in Oakland under the leadership of longtime coffee farmer advocate Paul Rice.
+    Initially, the organization focused on certifying coffee importers who were willing to trade according to Fair
+    Trade criteria. In 1999, that focus shifted to roasters. In 1999 they focused most of their energies on Bay Area
+    companies, but many socially responsible roasters across the nation have become licensees, especially after the
+    April 2000 SCAA conference where Fair Trade USA brought producers from a dozen different Fair Trade cooperatives
+    to show their product. In the fall of 2000 their focus is on Boston and the greater Northeast. As of mid-2000,
+    there were over 50 importers and roasters licensed to sell Fair Trade coffee with the Fair Trade USA label.
+    In addition, Fair Trade USA is active around promotion and consumer education around Fair Trade coffee.
+    See <a href="http://www.fairtradeusa.org">fairadeusa</a> for more information.
+</string>
+    <string name="title_cate1">What are some of the environmental issues, like pesticides and biodiversity, with coffee production?</string>
+    <string name="title_cate2">How does Fair Trade address environmental issues such as shade grown and organic?</string>
+    <string name="title_cate3">How does the Fair Trade certification process differ from organic and shade grown certifications?</string>
+    <string name="coffee_list_title">Coffee</string>
+    <string name="filtered_coffee_list">Sample Coffee 1\nSample Coffee With Long Name 2\nSample Coffee 3</string>
+    <string name="title_citge1">What role does coffee play in the global economy?</string>
+    <string name="title_citge2">What role does coffee play in the US economy?</string>
+    <string name="title_citge3">How are coffee prices currently set?</string>
+    <string name="title_citge4">What is the commodity chain of the coffee industry?</string>
+    <string name="title_cpal">How did the concept of Fair Trade originate?</string>
+    <string name="title_cpal1">How was the concept of Fair Trade Certification developed?</string>
+    <string name="title_cpal2">How did the Fairtrade Labeling Organizations international originate?</string>
+    <string name="title_cpal3">How did Fair Trade coffee in the US get started?</string>
+    <string name="title_cpal4">How did Fair Trade Certification in the US get started?</string>
+    <string-array name="type_spinner_elements">
+        <item>All</item>
+        <item>Coffee With Alcohol</item>
+        <item>Coffee With Milk</item>
+    </string-array>
+
+    <string-array name="complete_list">
+       <item> Gaelic coffee (Drambuie or Glayva),true,true,false</item>
+        <item>Irish Coffee (Whiskey),true,true,false</item>
+        <item>Brandy Coffee (Brandy),true,true,false</item>
+        <item>Keoke Coffee (Brandy and Kahlúa),true,true,false</item>
+        <item>English Coffee (Gin),true,true,false</item>
+        <item>Calypso Coffee (Tia Maria or Kahlue and Rum),true,true,false</item>
+        <item>Jamaican Coffee (Tia Maria),true,true,false</item>
+        <item>Shin Shin Coffee (Rum),true,true,false</item>
+        <item>Antoccino,true,false,true</item>
+        <item>Breve,true,false,true</item>
+        <item>Café bombón,true,false,true</item>
+        <item>Cappuccino,true,false,true</item>
+        <item>Cortado,true,false,true</item>
+        <item>Latte,true,false,true</item>
+        <item>Latte macchiato,true,false,true</item>
+        <item>Espressino,true,false,true</item>
+        <item>Flat white,true,false,true</item>
+        <item>Galão,true,false,true</item>
+        <item>Macchiato,true,false,true</item>
+        <item>Wiener or Viennese melange,true,false,true</item>
+        <item>Coffee with milk,true,false,true</item>
+        <item>Café au lait,true,false,true</item>
+        <item>Ca phe sua da,true,false,true</item>
+        <item>Egg coffee,true,false,true</item>
+        <item>Eggnog latte,true,false,true</item>
+        <item>Eiskaffee,true,false,true</item>
+        <item>Kopi susu,true,false,true</item>
+        <item>White coffee,true,false,true</item>
+        <item>White coffee (England),true,false,true</item>
+        <item>Baileys Irish Cream Coffee,true,true,false</item>
+        <item>VOODOO Cream Liqueur coffee,true,true,false</item>
+        <item>Monk\'s Coffee ,true,true,false</item>
+        <item>Seville Coffee (Cointreau),true,true,false</item>
+        <item>Witch\'s Coffee (Strega),true,true,false</item>
+        <item>Russian Coffee (Vodka),true,true,false</item>
+        <item>Priest Coffee (Brennivín),true,true,false</item>
+        <item>Corfu Coffee (Koum Quat liquor),true,true,false</item>
+        <item>Kaffee Fertig (coffee with Swiss prune schnapps),true,true,false</item>
+        <item>Kaffee Kirsch (coffee with Kirschwasser),true,true,false</item>
+        <item>Kaffe Karlsson (coffee with Baileys Irish Cream and Cointreau),true,true,false</item>
+        <item>Caffee corretto ,true,true,false</item>
+        <item>Coffee liqueurs (ex. Kahlúa, Kamora),true,true,false</item>
+        <item>Kula (espresso with Amarula),true,true,false</item>
+        <item>Karsk or svartkopp (coffee with moonshine),true,true,false</item>
+
+    </string-array>
+
+</resources>

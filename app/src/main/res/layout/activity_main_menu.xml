@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.coffee.android.aboutcoffee.MainMenuActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_marginBottom="@dimen/four"
+        android:layout_weight="1"
+        android:onClick="displayCoffeeType"
+        android:background="@drawable/coffee_type" />
+
+    <Button
+        android:id="@+id/coffee_in_the_global_economy"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_marginBottom="@dimen/four"
+        android:layout_marginTop="@dimen/four"
+        android:layout_weight="1"
+        android:background="@drawable/coffee_in_the_global_economy"
+        android:onClick="displayCoffeeInTheGlobalEconomy"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_marginBottom="@dimen/four"
+        android:layout_marginTop="@dimen/four"
+        android:layout_weight="1"
+        android:background="@drawable/coffee_production_and_labor"
+        android:onClick="displayCoffeeProductionAndLabor"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_marginTop="@dimen/four"
+        android:layout_weight="1"
+        android:background="@drawable/coffe_and_the_environment"
+        android:onClick="displayCoffeeAndTheEnvironment"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight="0"/>
+</LinearLayout>

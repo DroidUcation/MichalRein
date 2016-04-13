@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CoffeeType">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal"
+        android:padding="@dimen/eight"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/type_spinner"
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5" />
+
+        <LinearLayout
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/coffee_list_title"
+        style="@style/list_header_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_rectangle"
+        android:gravity="center"
+        android:paddingBottom="@dimen/four"
+        android:paddingTop="@dimen/four"
+        android:text="@string/coffee_list_title"/>
+      <!--  android:dimens="@dimens/list_header_dimens"-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/four"
+        android:background="@color/colorAccent"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/filtered_coffee_list"
+            style="@style/list_style"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="@dimen/four"
+            android:text="@string/filtered_coffee_list" />
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
+
+

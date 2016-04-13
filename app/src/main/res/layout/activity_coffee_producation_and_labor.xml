@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CoffeeProductionAndLabor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_cpal" />
+
+        <TextView
+            android:id="@+id/coffee_producation_and_labor_textview"
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coffee_overview9"/>
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_cpal1" />
+
+        <TextView
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coffee_overview10" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_cpal2" />
+
+        <TextView
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coffee_overview11" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_cpal3" />
+
+        <TextView
+
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coffee_overview12" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_cpal4" />
+
+        <TextView
+            android:id="@+id/coffee_overview13"
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coffee_overview13" />
+
+
+    </LinearLayout>
+</ScrollView>
