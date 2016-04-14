@@ -11,11 +11,6 @@
     <dimen name="thirtytwo">32sp</dimen>
     <dimen name="twenty">20sp</dimen>
     <dimen name="fifteen">15sp</dimen>
-    <!--<dimen name="list_header_style">-->
-        <!--<item name="android:textSize">@dimen/thirtytwo</item>-->
-        <!--<item name="android:gravity">center</item>-->
-    <!--<item android:paddingBottom="@dimen/four"</item>-->
-<!--<item  android:paddingTop="@dimen/four"</item>-->
-    <!--</dimen>-->
+
 
 </resources>
