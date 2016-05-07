@@ -8,18 +8,20 @@
         style="@style/base_style2">
 
         <TextView
+            android:id="@+id/coffee_and_the_environment_header"
             style="@style/content_header_style"
-            android:text="@string/title_cate1" />
+             />
 
         <TextView
             android:id="@+id/coffee_and_the_environment_textview"
             style="@style/body_text_style"
-            android:text="@string/coffee_overview5" />
+            />
 
-        <TextView
+        <!--<TextView
             style="@style/body_text_style"
             android:text="@string/coffee_overview22" />
-
+android:text="@string/title_cate1"
+ android:text="@string/coffee_overview5"
         <TextView
             style="@style/content_header_style"
             android:text="@string/title_cate2" />
@@ -35,6 +37,6 @@
         <TextView
             style="@style/body_text_style"
             android:text="@string/coffee_overview8" />
-
+-->
     </LinearLayout>
 </ScrollView>

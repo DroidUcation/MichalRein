@@ -1,4 +1,4 @@
-package com.coffe.android.aboutcoffee;
+package com.coffee.android;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,7 +11,6 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
 /**
  * Created by michal_re on 07/04/2016.
  */

@@ -2,25 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/base_style"
-    tools:context="com.coffee.android.aboutcoffee.MainMenuActivity">
+    tools:context="com.coffee.android.MainMenuActivity">
+
 
     <Button
+        android:id="@+id/coffee_type_img"
         style="@style/button_style"
-        android:background="@drawable/coffee_type"
         android:onClick="displayCoffeeType"/>
+       <!-- android:background="@drawable/coffee_type"-->
+
     <Button
-        android:id="@+id/coffee_in_the_global_economy"
+        android:id="@+id/coffee_in_the_global_economy_img"
         style="@style/button_style"
-        android:background="@drawable/coffee_in_the_global_economy"
+
         android:onClick="displayCoffeeInTheGlobalEconomy"/>
+    <!--android:background="@drawable/coffee_in_the_global_economy"-->
     <Button
         style="@style/button_style"
-        android:background="@drawable/coffee_production_and_labor"
+
         android:onClick="displayCoffeeProductionAndLabor"/>
+ <!--   android:background="@drawable/coffee_production_and_labor"-->
     <Button
         style="@style/button_style"
-        android:background="@drawable/coffe_and_the_environment"
+
         android:onClick="displayCoffeeAndTheEnvironment"/>
+       <!-- android:background="@drawable/coffe_and_the_environment"-->
     <Space
         style="@style/space_style"/>
 </LinearLayout>

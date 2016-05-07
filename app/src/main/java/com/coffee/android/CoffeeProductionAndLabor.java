@@ -1,18 +1,20 @@
-package com.coffe.android.aboutcoffee;
+package com.coffee.android;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-
+import android.text.method.LinkMovementMethod;
+import android.widget.TextView;
 /**
  * Created by michal_re on 07/04/2016.
  */
-public class CoffeeInTheGlobalEconomy extends AppCompatActivity {
+public class CoffeeProductionAndLabor extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_coffee_in_the_global_economy);
+        setContentView(R.layout.activity_coffee_producation_and_labor);
 
-
+        TextView linkMoreInformation = (TextView) findViewById(R.id.coffee_overview13);
+        linkMoreInformation.setMovementMethod(LinkMovementMethod.getInstance());
     }
     @Override
     protected void onStart() {

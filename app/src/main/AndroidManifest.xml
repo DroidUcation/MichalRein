@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.coffe.android.aboutcoffee">
+    package="com.coffee.android">
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
@@ -17,40 +17,45 @@
         </activity>
 
         <activity
-            android:name="com.coffe.android.aboutcoffee.CoffeeType"
+            android:name=".CoffeeType"
             android:label="@string/coffee_type"
-            android:parentActivityName="com.coffe.android.aboutcoffee.MainMenuActivity">
+            android:parentActivityName=".MainMenuActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.coffe.android.aboutcoffee.MainMenuActivity" />
+                android:value=".MainMenuActivity" />
         </activity>
 
         <activity
-            android:name="com.coffe.android.aboutcoffee.CoffeeAndTheEnvironment"
+            android:name=".CoffeeAndTheEnvironment"
             android:label="@string/title_activity_coffee_and_the_environment"
-            android:parentActivityName="com.coffe.android.aboutcoffee.MainMenuActivity">
+            android:parentActivityName=".MainMenuActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.coffe.android.aboutcoffee.MainMenuActivity" />
+                android:value=".MainMenuActivity" />
         </activity>
 
         <activity
-            android:name="com.coffe.android.aboutcoffee.CoffeeProductionAndLabor"
-            android:label="Coffee Production And Labor"
-            android:parentActivityName="com.coffe.android.aboutcoffee.MainMenuActivity">
+            android:name=".CoffeeProductionAndLabor"
+            android:label="@string/coffee_production_and_labor"
+            android:parentActivityName=".MainMenuActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.coffe.android.aboutcoffee.MainMenuActivity" />
+                android:value=".MainMenuActivity" />
         </activity>
 
         <activity
-            android:name="com.coffe.android.aboutcoffee.CoffeeInTheGlobalEconomy"
-            android:label="Coffee In The Global Economy"
-            android:parentActivityName="com.coffe.android.aboutcoffee.MainMenuActivity">
+            android:name=".CoffeeInTheGlobalEconomy"
+            android:label="@string/Coffee_In_The_Global_Economy"
+            android:parentActivityName=".MainMenuActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.coffe.android.aboutcoffee.MainMenuActivity" />
+                android:value=".MainMenuActivity" />
         </activity>
+        <provider
+            android:authorities="com.coffee.android.provider.FactProvider"
+            android:name=".provider.FactProvider"
+            android:exported="false"/>
     </application>
+
 
 </manifest>

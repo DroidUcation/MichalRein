@@ -187,6 +187,7 @@
     <string name="title_cpal2">How did the Fairtrade Labeling Organizations international originate?</string>
     <string name="title_cpal3">How did Fair Trade coffee in the US get started?</string>
     <string name="title_cpal4">How did Fair Trade Certification in the US get started?</string>
+    <string name="Coffee_In_The_Global_Economy">Coffee In The Global Economy</string>
     <string-array name="type_spinner_elements">
         <item>All</item>
         <item>Coffee With Alcohol</item>
