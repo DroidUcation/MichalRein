@@ -23,7 +23,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     private static final String SQL_CREATE_TABLE_FACT = "CREATE TABLE "
             + FactsDbContract.FACTS_TBL + "(" + FactsDbContract.KEY_ID + " INTEGER PRIMARY KEY AUTOINCREMENT," + TEXT
-            + " TEXT," + FactsDbContract.FACT_NAME + " TEXT" +")";
+            + " TEXT," + FactsDbContract.FACT_NAME + " TEXT" +")";//," + FactsDbContract.IMAGE_ID + " INTEGER " + ")";
 /*
     private static final String SQL_CREATE_TABLE_FACT = "CREATE TABLE "
             + FACTS_TBL + "(" + KEY_ID + " INTEGER PRIMARY KEY AUTOINCREMENT," + TEXT

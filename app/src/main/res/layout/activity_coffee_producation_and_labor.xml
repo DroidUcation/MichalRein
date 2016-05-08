@@ -7,10 +7,11 @@
     <LinearLayout style="@style/base_style2">
 
         <TextView
-            style="@style/content_header_style"
-            android:text="@string/title_cpal" />
+            android:id="@+id/coffee_producation_and_labor_textview1"
+            style="@style/content_header_style"/>
+           <!-- android:text="@string/title_cpal" -->
 
-        <TextView
+      <!--  <TextView
             android:id="@+id/coffee_producation_and_labor_textview"
             style="@style/body_text_style"
             android:text="@string/coffee_overview9" />
@@ -42,7 +43,7 @@
 
         <TextView
             style="@style/content_header_style"
-            android:text="@string/title_cpal4" />
+            android:text="@string/title_cpal4" />-->
 
         <TextView
             android:id="@+id/coffee_overview13"

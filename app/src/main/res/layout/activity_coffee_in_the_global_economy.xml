@@ -8,10 +8,11 @@
         style="@style/base_style2">
 
         <TextView
+            android:id="@+id/coffee_in_the_global_economy_textview1"
             style="@style/content_header_style"
-            android:text="@string/title_citge1" />
-
-        <TextView
+             />
+       <!-- android:text="@string/title_citge1"-->
+     <!--   <TextView
             android:id="@+id/coffee_in_the_global_economy_textview"
             style="@style/body_text_style"
             android:text="@string/coffee_overview1"/>
@@ -45,7 +46,7 @@
 
         <TextView
             style="@style/body_text_style"
-            android:text="@string/coffee_overview21" />
+            android:text="@string/coffee_overview21" />-->
 
     </LinearLayout>
 </ScrollView>

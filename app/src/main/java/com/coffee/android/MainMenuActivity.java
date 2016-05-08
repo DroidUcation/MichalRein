@@ -29,30 +29,42 @@ public class MainMenuActivity extends AppCompatActivity {
 
     }
     private void insertFactsToDB(){
-        /*getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_AND_THE_ENVIRONMENT,getString(R.string.title_cate1),ImageId.COFFEE_AND_THE_ENVIRONMENT));
-        getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_IN_THE_GLOBAL_ECONOMY,getString(R.string.Coffee_In_The_Global_Economy),  ImageId.COFFEE_IN_THE_GLOBAL_ECONOMY));
+       /* Toast.makeText(getBaseContext(),
+                FactName.COFFEE_AND_THE_ENVIRONMENT.getId().toString(), Toast.LENGTH_LONG).show();*/
 
-        getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_PRODUCTION_AND_LABOR,getString(R.string.coffee_production_and_labor),ImageId.COFFEE_PRODUCTION_AND_LABOR));
-        getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_TYPE,getString(R.string.coffee_type), ImageId.COFFEE_TYPE));
-*/
-        ContentValues values = new ContentValues();
+        getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_AND_THE_ENVIRONMENT,getString(R.string.title_cate1),ImageId.COFFEE_AND_THE_ENVIRONMENT));
+        getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_IN_THE_GLOBAL_ECONOMY,getString(R.string.title_citge1),  ImageId.COFFEE_IN_THE_GLOBAL_ECONOMY));
+        getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_PRODUCTION_AND_LABOR, getString(R.string.title_cpal), ImageId.COFFEE_PRODUCTION_AND_LABOR));
+        getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_TYPE, getString(R.string.coffee_type), ImageId.COFFEE_TYPE));
+
+       /* ContentValues values = new ContentValues();
         values.put(FactsDbContract.KEY_ID, 1);
         values.put(FactsDbContract.TEXT, getString(R.string.title_cate1));
         // values.put(FactsDbContract.IMAGE_ID, imageId.getId());
 
-        getContentResolver().insert(FactProvider.CONTENT_URI,values);
+      //  getContentResolver().insert(FactProvider.CONTENT_URI,values);
+        Uri uri = getContentResolver().insert(FactProvider.CONTENT_URI, values);
+
+        Toast.makeText(getBaseContext(),
+                uri.toString(), Toast.LENGTH_LONG).show();*/
     }
 
     private ContentValues createFactContentValues(FactName factName, String factText, ImageId imageId){
         ContentValues values = new ContentValues();
-        values.put(FactsDbContract.KEY_ID, factName.getId());
+        values.put(FactsDbContract.FACT_NAME, factName.getId());
         values.put(FactsDbContract.TEXT, factText);
-       // values.put(FactsDbContract.IMAGE_ID, imageId.getId());
+      // values.put(FactsDbContract.IMAGE_ID, imageId.getId());
         return values;
     }
 
     public void displayCoffeeType(View view){
-
+// fact image
+//        Button imageView =(Button) findViewById(R.id.coffee_type_img);
+//        String selection = FactsDbContract.FACT_NAME + " = ?";
+//        String[] selectionArgs = new String[]{FactName.COFFEE_TYPE.getId()};
+//        Cursor cursor = getContentResolver().query(FactProvider.CONTENT_URI, null, selection, selectionArgs, null);
+//        int imageId = cursor.getInt(cursor.getColumnIndex(FactsDbContract.IMAGE_ID));
+//        imageView.setBackgroundResource(imageId);
                 Intent intent = new Intent(this, CoffeeType.class);
                 startActivity(intent);
     }
