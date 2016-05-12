@@ -10,6 +10,7 @@ import com.coffee.android.dbhelpers.FactsDbContract;
 import com.coffee.android.enums.FactName;
 import com.coffee.android.enums.ImageId;
 import com.coffee.android.provider.FactProvider;
+import com.coffee.android.services.DailyAlarmService;
 
 public class MainMenuActivity extends AppCompatActivity {
     private boolean dataInserted;
@@ -19,6 +20,9 @@ public class MainMenuActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
+        // start daily alarm
+        getApplicationContext().startService(new Intent(getApplicationContext(), DailyAlarmService.class));
+
         //insertFact(4);
         // initialize facts table
         if(!dataInserted){
@@ -33,7 +37,7 @@ public class MainMenuActivity extends AppCompatActivity {
                 FactName.COFFEE_AND_THE_ENVIRONMENT.getId().toString(), Toast.LENGTH_LONG).show();*/
 
         getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_AND_THE_ENVIRONMENT,getString(R.string.title_cate1),ImageId.COFFEE_AND_THE_ENVIRONMENT));
-        getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_IN_THE_GLOBAL_ECONOMY,getString(R.string.title_citge1),  ImageId.COFFEE_IN_THE_GLOBAL_ECONOMY));
+        getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_IN_THE_GLOBAL_ECONOMY, getString(R.string.title_citge1), ImageId.COFFEE_IN_THE_GLOBAL_ECONOMY));
         getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_PRODUCTION_AND_LABOR, getString(R.string.title_cpal), ImageId.COFFEE_PRODUCTION_AND_LABOR));
         getContentResolver().insert(FactProvider.CONTENT_URI, createFactContentValues(FactName.COFFEE_TYPE, getString(R.string.coffee_type), ImageId.COFFEE_TYPE));
 
@@ -56,6 +60,31 @@ public class MainMenuActivity extends AppCompatActivity {
       // values.put(FactsDbContract.IMAGE_ID, imageId.getId());
         return values;
     }
+
+   /* public static void registerAlarm(Context paramContext) {
+        Calendar alarmStartTime = Calendar.getInstance();
+        Calendar now = Calendar.getInstance();
+        alarmStartTime.set(Calendar.HOUR_OF_DAY, 8);
+        alarmStartTime.set(Calendar.MINUTE, 00);
+        alarmStartTime.set(Calendar.SECOND, 0);
+        if (now.after(alarmStartTime)) {
+            Log.d("Hey", "Added a day");
+            alarmStartTime.add(Calendar.DATE, 1);
+        // PendingIntent that will perform a broadcast
+        PendingIntent localPendingIntent = PendingIntent
+                .getBroadcast(
+                        paramContext,
+                        22341,
+                        new Intent(
+                                "com.bestweightmanager.example.exampledailynotification.DAILY_NOTIFICATION"),
+                        PendingIntent.FLAG_UPDATE_CURRENT);
+            alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, alarmStartTime.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pendingIntent);
+            Log.d("Alarm","Alarms set for everyday 8 am.");
+        // Retrieve an AlarmManager to set a repeating daily alarm
+        ((AlarmManager) paramContext.getSystemService(Context.ALARM_SERVICE)).setRepeating(1,
+                alarmStartTime.getTimeInMillis(), AlarmManager.INTERVAL_DAY,
+                localPendingIntent);
+    }}*/
 
     public void displayCoffeeType(View view){
 // fact image

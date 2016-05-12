@@ -8,6 +8,7 @@
     <Button
         android:id="@+id/coffee_type_img"
         style="@style/button_style"
+        android:background="@drawable/coffee_type"
         android:onClick="displayCoffeeType"/>
        <!-- android:background="@drawable/coffee_type"-->
 

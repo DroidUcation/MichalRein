@@ -55,6 +55,20 @@
             android:authorities="com.coffee.android.provider.FactProvider"
             android:name=".provider.FactProvider"
             android:exported="false"/>
+
+        <receiver android:name=".services.AlarmReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+            </intent-filter>
+        </receiver>
+
+        <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+        <service android:name="com.coffee.android.services.DBService" android:enabled="true" android:exported="false"></service>
+        <service android:name="com.coffee.android.services.DailyAlarmService" android:enabled="true" android:exported="false"></service>
+
+
     </application>
 
 
